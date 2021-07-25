@@ -9,5 +9,6 @@ def create_window():
 
 window = Tk() #Explain what this is - JG
 window.title('My First Window')
+print("here")
 Button(window, text="Next Window", command=create_window).pack()
 window.mainloop() #Explain what this is - JG
